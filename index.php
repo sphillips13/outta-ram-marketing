@@ -1,9 +1,3 @@
-<?php
-
-echo 'Hello World';
-
-?>
-
 <!DOCTYPE html>
 
 <html lang="en" xmlns="http://www.w3.org/1999/xhtml">
@@ -53,6 +47,9 @@ echo 'Hello World';
       <li style="float:right"><a href="#about">About</a></li>
     </ul>
 
-    Currently in Development
+    <?php
+        echo 'Currently in Development';
+    ?>
+    
 </body>
 </html>
