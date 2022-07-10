@@ -35,9 +35,21 @@
     }
 
     .active {
-      background-color: #04AA6D;
+      background-color: gray;
     }
 </style>
+
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-233912854-1">
+</script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-233912854-1');
+</script>
+
 </head>
 <body>
     <ul>
@@ -46,6 +58,8 @@
       <li><a href="#contact">Contact</a></li>
       <li style="float:right"><a href="#about">About</a></li>
     </ul>
+
+    <h1> Currently in Development </h1>
 
     <?php
         echo 'Currently in Development';
