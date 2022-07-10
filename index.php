@@ -1,10 +1,10 @@
 <!DOCTYPE html>
-
-<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<html>
 <head>
     <meta charset="utf-8" />
     <title>Outta Ram Marketing</title>
-    <style>
+
+<style>
     ul {
       list-style-type: none;
       margin: 0;
@@ -15,55 +15,71 @@
 
     li {
       float: left;
-      border-right:1px solid #bbb;
     }
 
-    li:last-child {
-      border-right: none;
-    }
-
-    li a {
-      display: block;
+    li a, .dropbtn {
+      display: inline-block;
       color: white;
       text-align: center;
       padding: 14px 16px;
       text-decoration: none;
     }
 
-    li a:hover:not(.active) {
-      background-color: #111;
+    li a:hover, .supplements:hover .dropbtn {
+      background-color: red;
     }
 
-    .active {
-      background-color: gray;
+    li.supplements {
+      display: inline-block;
+    }
+
+    .supplements-content {
+      display: none;
+      position: absolute;
+      background-color: #f9f9f9;
+      min-width: 160px;
+      box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+      z-index: 1;
+    }
+
+    .supplements-content a {
+      color: black;
+      padding: 12px 16px;
+      text-decoration: none;
+      display: block;
+      text-align: left;
+    }
+
+    .supplements-content a:hover {background-color: #f1f1f1;}
+
+    .supplements:hover .supplements-content {
+      display: block;
     }
 </style>
-
-<!-- Global site tag (gtag.js) - Google Analytics -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=UA-233912854-1">
-</script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
-
-  gtag('config', 'UA-233912854-1');
-</script>
-
 </head>
 <body>
-    <ul>
-      <li><a class="active" href="#home">Home</a></li>
-      <li><a href="#news">News</a></li>
-      <li><a href="#contact">Contact</a></li>
-      <li style="float:right"><a href="#about">About</a></li>
-    </ul>
 
-    <h1> Currently in Development </h1>
+<ul>
+  <li><a href="#home">Home</a></li>
+  <li class="supplements">
+    <a href="javascript:void(0)" class="dropbtn">Supplements</a>
+    <div class="supplements-content">
+      <a href="#">Link 1</a>
+      <a href="#">Link 2</a>
+      <a href="#">Link 3</a>
+    </div>
+  </li>
+  <li style="float:right"><a href="#about">About</a></li>
 
-    <?php
+</ul>
+
+<h3>Currently in Development</h3>
+
+   <?php
         echo 'Currently in Development';
     ?>
-    
+
 </body>
 </html>
+
+
