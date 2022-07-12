@@ -64,7 +64,7 @@
   <li class="supplements">
     <a href="javascript:void(0)" class="dropbtn">Supplements</a>
     <div class="supplements-content">
-      <a href="#">Link 1</a>
+      <a href="/Supplements/IkariaLeanBellyJuice.php">Link 1</a>
       <a href="#">Link 2</a>
       <a href="#">Link 3</a>
     </div>
