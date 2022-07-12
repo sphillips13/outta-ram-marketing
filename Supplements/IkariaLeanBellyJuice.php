@@ -12,6 +12,11 @@ https://c67a882sy-t3yle9e72dd1ep4f.hop.clickbank.net
   <meta name="description" content="The Ikaria Lean Belly Juice is a delicious all-natural, scientifically-backed juice formula that burns fat quickly and effectively.">  <meta name="keywords" content="Lean belly juice">    <meta property="og:url" name="url" content="https://leanbellyjuice.com/">      <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0">
   <meta charset="utf-8">
   <link rel="icon" type="image/png" href="/images/favicon.png?v2" />
+
+  <!-- Gooogle Code Snipit for Add -->
+  <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-5814556169214942"
+     crossorigin="anonymous"></script>
+
 </head>
 <body>
   
